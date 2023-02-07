@@ -7,3 +7,4 @@ Small example notebooks to use on Oracle Data Science
 - Create connection with an Autonomous Database
 - Push PD dataframe to the Autonomous Database as a new table (and append)
 - Create and run a Data Science Jobs, using a .py file stored in local (Data Science) directory, with environment variables referring to Object Storage buckets
+- Batch delete logs inside a Log Group
