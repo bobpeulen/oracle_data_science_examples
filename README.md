@@ -17,3 +17,7 @@ Small example notebooks to use on Oracle Data Science
 ## CTGAN in notebook session (generate_synthetic_data.ipynb)
 - Use CTGan to generate synthetic .csv file. From object storage to object storage
 - Use CTGan to generate synthetic data from autonomous database table, to a new, synthetic database table
+
+## Deploying GPT2
+- Using OCI Data Science to locally load and test GPT2 and storing the model in the Model Catalog
+- Deploying the GPT2 model and making a prediction using the deployed model
