@@ -1,5 +1,5 @@
 # **oracle_data_science_examples**
-Small example notebooks to use on Oracle Data Science
+Example notebook in using OCI Data Science, from deploying GANs to small examples in how to work with autonomous database.
 
 ## Running and deploying DeepFace in Face Recognition and comparison (deepface_oda_v3.ipynb)
 - Deploy 3 different Deep Face models in one model deployment. Invoke as REST API
