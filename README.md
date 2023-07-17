@@ -26,7 +26,7 @@ Example notebooks in using OCI Data Science, from deploying GANs to small exampl
 ## 5. Delete log groups (delete_logs.ipynb)
 - Batch delete logs inside a Log Group
 
- ##6. Batch delete all items in a Compartment (batch_delete_projects.ipynb)
+ ## 6. Batch delete all items in a Compartment (batch_delete_projects.ipynb)
 - Batch delete all model deployments
 - Batch delete all models in model catalog
 - Batch delete all notebook sessions
@@ -38,7 +38,3 @@ Example notebooks in using OCI Data Science, from deploying GANs to small exampl
 ## 8. CTGAN in notebook session (generate_synthetic_data.ipynb)
 - Use CTGan to generate synthetic .csv file. From object storage to object storage
 - Use CTGan to generate synthetic data from autonomous database table, to a new, synthetic database table
-
-## 9. Deploying GPT2 (deploying_gpt2.ipynb)
-- Using OCI Data Science to locally load and test GPT2 and storing the model in the Model Catalog
-- Deploying the GPT2 model and making a prediction using the deployed model
