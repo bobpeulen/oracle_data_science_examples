@@ -38,3 +38,7 @@ Example notebooks in using OCI Data Science, from deploying GANs to small exampl
 ## 8. CTGAN in notebook session (generate_synthetic_data.ipynb)
 - Use CTGan to generate synthetic .csv file. From object storage to object storage
 - Use CTGan to generate synthetic data from autonomous database table, to a new, synthetic database table
+
+## 9. Video Analytics on Soccer Video (demo_spl.ipynb)
+- Use open source to track scoccer players, the ball, and referee in a video
+- Use a custom trained AI Vision model (recognizing logos near the soccer pitch) to extract the logos from the video. E.g., how often was "xx" logo in screen?
