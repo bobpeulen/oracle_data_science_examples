@@ -42,3 +42,9 @@ Example notebooks in using OCI Data Science, from deploying GANs to small exampl
 ## 9. Video Analytics on Soccer Video (demo_spl.ipynb)
 - Use open source to track scoccer players, the ball, and referee in a video
 - Use a custom trained AI Vision model (recognizing logos near the soccer pitch) to extract the logos from the video. E.g., how often was "xx" logo in screen?
+
+## 10. Automating Forecasting using Prophet (automating_forecasting.ipynb)
+- Notebook to deploy and automate forecasting
+- Read in .csv from bucket, use Prophet to forecast next 10 minutes
+- Calculate difference between forecasted future and history (e.g., expected to increase with 10%)
+- Push results to autonomous database
