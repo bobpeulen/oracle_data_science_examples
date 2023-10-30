@@ -1,0 +1,14 @@
+
+1. Create compute shape. Download keys
+2. ssh -i ssh-key-2023-07-10.key opc@138.3.241.32
+2. sudo yum install docker
+3. docker pull qdrant/qdrant
+4. mkdir qdrant_storage
+5. docker run -p 6333:6333     -v $(pwd)/qdrant_storage:/home/opc/     qdrant/qdrant
+
+
+In a different terminal, turn off firewall
+1. ssh in the vm
+2. sudu su
+3. Simple version: systemctl stop firewalld
+4. Better version: firewall-cmd --add-port=6333/tcp
