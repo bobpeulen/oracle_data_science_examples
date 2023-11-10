@@ -1,3 +1,8 @@
+#for install ffmpeg
+
+## to install ffmpeg, use conda install -c conda-forge ffmpeg
+## conda install -c conda-forge libiconv
+
 
 import os
 import ocifs
